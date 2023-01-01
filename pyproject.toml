@@ -2,7 +2,7 @@
 name = "jb_python_project_skeleton"
 version = "1.4.0"
 description = "A project skeleton for Python projects, using Copier lib"
-authors = ["Jb Doyon <jb@jiby.tech>"]
+authors = ["Jb Doyon <jb@jiby.tech>", "Sami Laine <sami.v.laine@gmail.com>"]
 # Known poetry issue causes the project_slug folder to not be included
 # properly in wheel. See https://github.com/python-poetry/poetry/issues/2685
 include = ["template", "copier.yaml", "hooks", "CHANGELOG.md"]

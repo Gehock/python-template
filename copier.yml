@@ -36,12 +36,12 @@ python_version:
 author_name:
   type: str
   help: The author of this package and template
-  default: "Jb Doyon"
+  default: "Sami Laine"
 
 author_email:
   type: str
   help: The email of author
-  default: "jb@jiby.tech"
+  default: "sami.v.laine@gmail.com"
   validator: >-
     {% if not (author_email | regex_search('^[^@]+@[^@]+\.[^@]+$')) %}
     Email invalid
