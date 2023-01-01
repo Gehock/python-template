@@ -48,6 +48,10 @@ build-backend = "poetry.core.masonry.api"
 [tool.isort]
 profile = "black"
 multi_line_output = 3
+line_length = 79
+
+[tool.black]
+line-length = 79
 
 # Avoid pointless warning about performance hit of f-string in loggers
 [tool.pylint.message_control]
@@ -70,7 +74,7 @@ unfixable = [
     "ERA", # do not autoremove commented out code
 ]
 # Black compat:
-line-length = 88
+line-length = 79
 extend-exclude = ["docs/*"]
 
 
