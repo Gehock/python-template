@@ -16,6 +16,10 @@ templating versions are not perfect matches for semantic versions.
 - `yamllint` pre-commit hook: re-added yaml pretty-printer even though a
   validator is included in the default hooks
 
+### Fixed
+
+- Generate annotated git tags on release.
+
 
 ## v1.3.1 - 2023-09-05
 
