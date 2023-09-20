@@ -199,6 +199,9 @@ Formatters avoids asking the question of code format. Black, the formatter, is a
 fantastic tool, and is opinionated, as its tagline shows:
 > You can choose any color. As long as it is black.
 
+While 79 lines, per PEP8, is the default choice for anything else, black's 88
+characters is fine enough, and not worth changing.
+
 To complement formatting, we use import sorters to group stdlib vs first vs
 third party imports, see "Linters" section below for how.
 
