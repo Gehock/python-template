@@ -6,6 +6,8 @@ templating versions are not perfect matches for semantic versions.
 
 ## [Unreleased]
 
+## v1.3.2a2 - 2023-09-30
+
 ### Added
 
 - Allow setting a container registry when building. Run `make
