@@ -22,6 +22,10 @@ templating versions are not perfect matches for semantic versions.
 - Git/docker ignore files are now shared via jinja templating, clearly
   delineated from the rest of the file (which can be edited by hand afterwards)
 
+### Changed
+
+- Require copier >= v8.0.0
+
 ### Fixed
 
 - Project name validator now allows more than lowercase characters (validating
