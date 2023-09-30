@@ -6,6 +6,12 @@ templating versions are not perfect matches for semantic versions.
 
 ## [Unreleased]
 
+### Added
+
+- Allow setting a container registry when building. Run `make
+  DOCKER_REGISTRY=docker.io/example/ docker-build-release` to automatically tag
+  the image with a specific registry.
+
 ## v1.3.2a1 - 2023-09-20
 
 ## v1.3.2a0 - 2023-09-20
@@ -23,7 +29,6 @@ templating versions are not perfect matches for semantic versions.
 ### Fixed
 
 - Generate annotated git tags on release.
-
 
 ## v1.3.1 - 2023-09-05
 
